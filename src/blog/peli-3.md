@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Elden Rings
-tags: series
+title: Star Wars
+tags: peliculas
 ---
 
 # {{title}}

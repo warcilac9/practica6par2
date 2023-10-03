@@ -1,20 +1,15 @@
 ---
 layout: base.njk
-title: Hola Mundo 11ty
+title: Wilbert Arcila Castellanos 
 ---
 
 # {{ title }}
 
-- Primavera
-- Verano
-- Otoño
-- Invierno
-
 [Acerca]({{ '/acerca' | url }})
 
-## Artículos de mi Blog
+## Artículos
 
-### Categoría Libros
+### Animes:
 
 {% for libro in collections.libros %}
 
@@ -22,10 +17,18 @@ title: Hola Mundo 11ty
 
 {% endfor %}
 
-### Categoria Series
+### Videojuegos
 
 {% for serie in collections.series %}
 
 - [{{serie.data.title}}]({{ serie.url | url }})
+
+{% endfor %}
+
+### Peliculas
+
+{% for peli in collections.peliculas %}
+
+- [{{peli.data.title}}]({{peli.url | url}})
 
 {% endfor %}

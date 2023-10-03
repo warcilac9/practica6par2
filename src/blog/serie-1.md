@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Reseña de la serie 1
+title: Sekiro
 tags: series
 ---
 

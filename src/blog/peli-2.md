@@ -1,7 +1,7 @@
 ---
 layout: base.njk
-title: Elden Rings
-tags: series
+title: Indiana Jones
+tags: peliculas
 ---
 
 # {{title}}
